@@ -1,0 +1,108 @@
+
+    .subscribe-button{
+      background-color: rgb(201, 1, 1);
+      color: white;
+      border: none;
+      border-color: none;
+      cursor: pointer;
+       margin-right: 8px;
+       transition: opacity 0.15s, color 0.15s;
+       padding-left: 16px;
+       padding-right: 16px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       vertical-align: top;
+   /*margin is for space*/
+    }
+    .subscribe-button:hover{
+      opacity: 0.7;
+      /* background-color: rgb(134, 55, 55); */
+    }
+  /* hover makes shadow color change */
+  .subscribe-button:active{
+    opacity: 0.4;
+    /* background-color: rgb(1, 100, 100); */
+  }
+  
+    .join-button {
+      background-color: white;
+      border-color: rgb(41, 118, 211);
+      border-style: solid;
+      border-width: 1px;
+      color:rgb(41, 118, 211);
+      border-radius: 2px;
+       cursor: pointer;
+       margin-right: 8px;
+       transition: opacity 0.15s, color 0.15s;
+       padding-left: 16px;
+       padding-right: 16px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+       vertical-align: top;
+       
+       /* it makes mouse like hand */
+    }
+    .join-button:hover{
+    background-color: rgb(41, 118, 211);
+    color: white;
+    }
+    .join-button:active{
+      opacity:0.7;
+    }
+  
+    .tweet-button{
+      background-color: rgb(41, 118, 211);
+      color: white;
+      border: none;
+      border-radius: 15px;
+      height: 30px;
+      width: 150px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 15;
+      margin-right: 15px;
+      transition: box-shadow 0.15s;
+      vertical-align: top;
+      
+  
+    }
+    .tweet-button:hover{
+      box-shadow: 5px 5px  5px rgba(0,0,0,0.15);
+    }
+    .requestnow-button{
+      background-color: black;
+      color: white;
+      height: 30px;
+      width: 150px;
+      cursor: pointer;
+      margin-right: 15px;
+      font-weight: bold;
+      font-size: medium;
+      transition: opacity 0.15s, color 0.15s;
+    }
+    .requestnow-button:hover{
+      background-color: rgb(192, 173, 173);
+      color: rgb(50, 37, 37);
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+    }
+    .requestnow-button:active{
+      opacity: 0.7;
+    }
+    .LinkedIns-button{
+      background-color: rgb(10,102,194);
+      color: white;
+      height: 30px;
+      width: 200px;
+      border: none;
+      border-radius: 20px;
+      margin-right: 15px;
+    }
+    .LinkedIn-button{
+      background-color: white;
+      color: blue;
+      height: 30px;
+      width: 60px;
+      border-radius: 15px;
+      border-color: rgb(10, 102, 194);
+    }
+  
